@@ -1,0 +1,13 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+library github_languagae_colors;
+
+/// Theme colors for all programing languages known to GitHub. 
+/// 
+/// Each of entry in this [Map] represent a set of a language name known to GitHub and its theme color (a hex code).
+/// These colors are originally defined in [github-linguist/linguist](https://github.com/github-linguist/linguist/blob/master/lib/linguist/languages.yml).
+const githubLanguageColors = {
+  {%- for language, hexCode in palette.items() %}
+  "{{ language }}": {{ hexCode }},
+  {%- endfor %}
+};

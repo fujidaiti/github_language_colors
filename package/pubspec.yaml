@@ -1,0 +1,8 @@
+name: github_language_colors
+description: Theme colors for all programing languages known to GitHub.
+version: 1.0.0
+repository: https://github.com/fujidaiti/github_language_colors.git
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+  flutter: ">=1.17.0"
